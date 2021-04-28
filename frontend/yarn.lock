@@ -1437,6 +1437,11 @@
     schema-utils "^2.6.5"
     source-map "^0.7.3"
 
+"@rescript/react@^0.10.2":
+  version "0.10.2"
+  resolved "https://registry.yarnpkg.com/@rescript/react/-/react-0.10.2.tgz#170d2a5ff34ad09cd614d92467d5efad95202794"
+  integrity sha512-Qe21P4WnrmrbhbEMQ4dpaXC1/iMMc7JmqjuSpZouSP+s41K5dCXUGY9sds30gajU74lSfJdG2PzSDYcNAcDyVA==
+
 "@rollup/plugin-node-resolve@^7.1.1":
   version "7.1.3"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-node-resolve/-/plugin-node-resolve-7.1.3.tgz#80de384edfbd7bfc9101164910f86078151a3eca"
@@ -2899,6 +2904,11 @@ browserslist@^4.0.0, browserslist@^4.12.0, browserslist@^4.14.5, browserslist@^4
     electron-to-chromium "^1.3.649"
     escalade "^3.1.1"
     node-releases "^1.1.70"
+
+bs-platform@^9.0.2:
+  version "9.0.2"
+  resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-9.0.2.tgz#a6eac70eb8924a322556dacaccbfbc9b2a0d3a37"
+  integrity sha512-Ye9JqJ4Oa7mcjjoOVRYI8Uc2Cf8N7jQLWDcdUplY7996d/YErSR7WitmV7XnSwr4EvdrbwjEsg1NxNjUQv3ChA==
 
 bser@2.1.1:
   version "2.1.1"
