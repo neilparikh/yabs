@@ -1,22 +1,7 @@
-%%raw(`import './App.css';`)
-@module("./logo.svg") external logo: string = "default"
-
 @react.component
 let make = () => {
-  <div className="App">
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>
-        {React.string("Edit ")}<code>{React.string("src/App.js")}</code>{React.string(" and save to reload.")}
-      </p>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        {React.string("Learn React")}
-      </a>
-    </header>
+  <div className={"md:flex py-8 lg:px-8 lg:w-1/2 flex-col space-y-2 divide-y-4 divide-gray-300"}>
+    <Bookmark title={"Neil Parikh"} href={"https://www.neilparikh.me"} tags={["home", "neil", "anotherTag", "yetOneMore", "anotherTag2", "yetOneMore2"]} />
+    <Bookmark title={"Github"} href={"https://github.com"} tags={["code", "social"]} />
   </div>
 }
