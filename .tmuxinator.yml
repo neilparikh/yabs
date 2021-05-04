@@ -1,0 +1,13 @@
+# ./.tmuxinator.yml
+
+name: yabs
+root: ~/yabs
+
+windows:
+  - editor: vim
+  - frontend:
+      root: ~/yabs/frontend
+      layout: main-vertical
+      panes:
+        - "yarn re:start"
+        - "yarn start"
