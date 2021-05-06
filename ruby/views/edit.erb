@@ -1,0 +1,19 @@
+<div class="row justify-content-md-center my-2">
+  <div class="col col-lg-3">
+    <div class="card border-2">
+      <div class="card-body">
+        <form method="post">
+          <h5 class="card-title">
+            <input type="text" name="title" value="<%= bookmark[:title] %>" />
+          </h5>
+          <h6 class="card-subtitle mb-2">
+            <input type="text" name="href" value="<%= bookmark[:href] %>" />
+          </h6>
+          <input type="text" name="tags" value="<%= bookmark[:tags] %>" />
+          <br /><input type="submit" value="Save" />
+          <br /><a class="link-dark" href="/bookmarks/<%= bookmark[:id] %>">n days ago</a>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
