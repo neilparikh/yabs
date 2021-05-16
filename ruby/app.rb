@@ -1,4 +1,7 @@
 # TODO: setup pagination
+# TODO: Cross site scripting/sql injection
+# TODO: verify that titles and tags only contain a-z and 0-9
+# TODO: sanitize urls
 require "sequel"
 require "sinatra"
 
